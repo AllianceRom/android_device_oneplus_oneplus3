@@ -1,0 +1,2 @@
+add_lunch_combo ALLIANCE_oneplus3-user
+add_lunch_combo ALLIANCE_oneplus3-eng

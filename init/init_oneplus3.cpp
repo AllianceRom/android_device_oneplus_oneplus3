@@ -1,7 +1,6 @@
 /*
    Copyright (c) 2016, The CyanogenMod Project
              (c) 2017, The LineageOS Project
-
    Redistribution and use in source and binary forms, with or without
    modification, are permitted provided that the following conditions are
    met:
@@ -14,7 +13,6 @@
     * Neither the name of The Linux Foundation nor the names of its
       contributors may be used to endorse or promote products derived
       from this software without specific prior written permission.
-
    THIS SOFTWARE IS PROVIDED "AS IS" AND ANY EXPRESS OR IMPLIED
    WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
    MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT
@@ -94,16 +92,16 @@ void load_op3(const char *model) {
     property_set("ro.product.model", model);
     property_set("ro.build.product", "OnePlus3");
     property_set("ro.product.device", "OnePlus3");
-    property_set("ro.build.description", "OnePlus3-user 7.1.1 NMF26F 30 dev-keys");
-    property_set("ro.build.fingerprint", "OnePlus/OnePlus3/OnePlus3:7.1.1/NMF26F/03061309:user/release-keys");
+    property_set("ro.build.description", "OnePlus3-user 7.0 NRD90M 15 dev-keys");
+    property_set("ro.build.fingerprint", "OnePlus/OnePlus3/OnePlus3:7.0/NRD90M/01122125:user/release-keys");
 }
 
 void load_op3t(const char *model) {
     property_set("ro.product.model", model);
     property_set("ro.build.product", "OnePlus3");
     property_set("ro.product.device", "OnePlus3T");
-    property_set("ro.build.description", "OnePlus3-user 7.1.1 NMF26F 37 dev-keys");
-    property_set("ro.build.fingerprint", "OnePlus/OnePlus3/OnePlus3T:7.1.1/NMF26F/03061311:user/release-keys");
+    property_set("ro.build.description", "OnePlus3-user 7.0 NRD90M 18 dev-keys");
+    property_set("ro.build.fingerprint", "OnePlus/OnePlus3/OnePlus3T:7.0/NRD90M/01122128:user/release-keys");
 }
 
 void vendor_load_properties() {
@@ -141,4 +139,3 @@ void vendor_load_properties() {
 
     init_alarm_boot_properties();
 }
-
